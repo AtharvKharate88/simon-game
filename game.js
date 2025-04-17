@@ -60,7 +60,7 @@ function nextSequence(){
 
 }
  function playsound(name){
-    const audio=new Audio("/sounds/"+name+".mp3");
+    const audio=new Audio("https://atharvkharate88.github.io/simon-game/sounds/" + name + ".mp3");
     audio.play();
  }
 function animatePress(currentColour){
